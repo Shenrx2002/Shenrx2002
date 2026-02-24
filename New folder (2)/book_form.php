@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $leaving = htmlspecialchars($_POST['leaving'] ?? '');
     
     // Your email address where you want to receive bookings
-    $to_email = "sithumanjana246@gmail.com"; // CHANGE THIS TO YOUR EMAIL
+    $to_email = "sithumsanjana246@gmail.com"; // CHANGE THIS TO YOUR EMAIL
     
     // Email subject
     $subject = "New Booking Request from " . $name;
